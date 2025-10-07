@@ -1,0 +1,118 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="CSS/home.css">
+        <link rel="icon" type="image/jpg" href="IMG/Sonic-Logo.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <title>SONIC</title>
+    </head>
+    <body>
+        <header>
+            <img id="logo_ativa" src="./IMG/Sonic-Logo.png" alt="LOGO" class="logo">
+
+            <nav>
+                <ul>
+                    <li style="font-family: 'Arimo', sans-serif; font-size: 20px; font-weight: bold;">HOME</li>
+                    <li style="font-family: 'Arimo', sans-serif; font-size: 20px; font-weight: bold;">HISTÓRIA</li>
+                    <li style="font-family: 'Arimo', sans-serif; font-size: 20px; font-weight: bold;">PERSONAGENS</li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="container">
+            
+            <div class="list">
+                
+                <div class="item active" data-bg="radial-gradient(#3061e3, #000000)" data-logo="./IMG/Sonic-Logo.png" data-title="SONIC" data-icon="./IMG/Sonic-Logo.png">
+                    
+                    <div class="sonic-img">
+                        <img src="./IMG/SONIC.webp" alt="Sonic">
+                    </div>
+                    
+                    <div class="content">
+                        <p class="sonic-inf" style="font-family: 'Arimo', sans-serif; font-size: 16px;">
+                            Ouriço Azul
+                        </p>
+                        <h2 style="font-family: 'Anton', sans-serif;">
+                            Sonic
+                        </h2>
+                        <p class="descr" style="font-family: 'Raleway', sans-serif; color: white;">
+                            Sonic é um ouriço ousado, confiante e aventureiro, que adora liberdade e não gosta de regras. Ele é corajoso, rápido para agir e sempre protege seus amigos. Tem um espírito brincalhão e competitivo, mas também é leal e justo. Adora correr, desafios e se divertir, sendo independente e destemido em qualquer situação.
+                        </p>
+                        <button class="saiba_mais">
+                            SAIBA MAIS
+                        </button>
+                        
+                    </div>
+                </div>
+
+                <div class="item" data-bg="radial-gradient(#ffa800, #000000)" data-logo="./IMG/logo_tails.png" data-title="TAILS" data-icon="./IMG/logo_tails.png">
+                    
+                    <div class="sonic-img">
+                        <img src="./IMG/TAILS(2).webp" alt="Sonic">
+                    </div>
+                    
+                    <div class="content">
+                        <p class="sonic-inf" style= "font-family: 'Arimo', sans-serif; font-size: 16px;">
+                            Raposa Amarela
+                        </p>
+                        <h2 style="font-family: 'Anton', sans-serif;">
+                            Tails
+                        </h2>
+                        <p class="descr" style="font-family: 'Raleway', sans-serif; color: white;">
+                            Tails é um jovem raposo inteligente, curioso e leal, sempre disposto a ajudar seus amigos. Ele adora inventar máquinas e explorar novos lugares, mostrando talento para engenharia e tecnologia. Apesar de ser um pouco tímido, é corajoso quando a situação exige e confia muito em Sonic.
+                        </p>
+                        <button class="saiba_mais">
+                            SAIBA MAIS
+                        </button>
+                        
+                    </div>
+                </div>
+
+                <div class="item" data-bg="radial-gradient(#DA2528, #000000)" data-logo="./IMG/knuckles-logo.png" data-title="KNUCKLES" data-icon="./IMG/knuckles-logo.png">
+                    
+                    <div class="sonic-img">
+                        <img src="./IMG/KNUCKLES.webp" alt="Sonic">
+                    </div>
+                    
+                    <div class="content">
+                        <p class="sonic-inf" style="font-family: 'Arimo', sans-serif; font-size: 16px;">
+                            Equidna Vermelha
+                        </p>
+                        <h2 style="font-family: 'Anton', sans-serif;">
+                            Knuckles
+                        </h2>
+                        <p class="descr" style="font-family: 'Raleway', sans-serif; color: white;">
+                            Knuckles é um equidna determinado, forte e protetor, responsável por guardar a Master Emerald. Ele é sério, focado e valoriza a honestidade, mas às vezes pode ser impulsivo. Gosta de desafios físicos e respeito, e sempre cumpre suas responsabilidades com dedicação.
+                        </p>
+                        <button class="saiba_mais">
+                            SAIBA MAIS
+                        </button>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="setas">
+                <button id="antes"><img src="./IMG/setas.png" alt="seta_esq"></button>
+                <button id="depois"><img src="./IMG/setas.png" alt="seta_esq"></button>
+            </div>
+
+            <div class="indicadores">
+                <div class="numeros" style="font-family: 'Kanit', sans-serif;"></div>
+                <ul>
+                    <li class="active" data-color="#3061e3"></li>
+                    <li data-color="#ffa800"></li>
+                    <li data-color="#DA2528"></li>
+                </ul>
+            </div>
+        </section>
+
+        <script src="./JavaScript/scripts.js"></script>
+    </body>
+</html>
